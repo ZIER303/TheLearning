@@ -1,0 +1,176 @@
+{
+  "choices": [
+    {
+      "actor": "X1",
+      "action": "ch00-07u",
+      "targets": [
+        "X0",
+        "Y0"
+      ]
+    },
+    {
+      "actor": "X1",
+      "action": "a001-19",
+      "targets": [
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    },
+    {
+      "actor": "X1",
+      "action": "basic_atk",
+      "targets": [
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    },
+    {
+      "actor": "X2",
+      "action": "unique_prc-03",
+      "targets": [
+        "X2"
+      ]
+    },
+    {
+      "actor": "X2",
+      "action": "a001-21",
+      "targets": [
+        "X1",
+        "X2",
+        "X3",
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    },
+    {
+      "actor": "X2",
+      "action": "a001-04",
+      "targets": [
+        "X1",
+        "X2",
+        "X3",
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    },
+    {
+      "actor": "X2",
+      "action": "basic_atk",
+      "targets": [
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    },
+    {
+      "actor": "X3",
+      "action": "basic_atk",
+      "targets": [
+        "Y1",
+        "Y2",
+        "Y3"
+      ]
+    }
+  ],
+  "steps": [],
+  "state": {
+    "turn": 4,
+    "wave": 1,
+    "phase": 3,
+    "dice": 6,
+    "next": false,
+    "end": false,
+    "characters": [
+      {
+        "index": "X1",
+        "stats": {
+          "atk": 65,
+          "matk": 165,
+          "def": 55,
+          "mdef": 100,
+          "spd": 95,
+          "hp": 163
+        },
+        "buffs": [
+          "devotion"
+        ]
+      },
+      {
+        "index": "X2",
+        "stats": {
+          "atk": 135,
+          "matk": 65,
+          "def": 180,
+          "mdef": 95,
+          "spd": 75,
+          "hp": 580,
+          "shd": 635,
+          "shdMax": 840
+        },
+        "buffs": [
+          "negate-stun",
+          "shield",
+          "negate-atk_matk_all",
+          "esme-impact"
+        ]
+      },
+      {
+        "index": "X3",
+        "stats": {
+          "atk": 110,
+          "matk": 105,
+          "def": 125,
+          "mdef": 115,
+          "spd": 85,
+          "hp": 530
+        },
+        "buffs": [
+          "devotion"
+        ]
+      },
+      {
+        "index": "Y1",
+        "stats": {
+          "atk": 200,
+          "matk": 150,
+          "def": 45,
+          "mdef": 45,
+          "spd": 60,
+          "hp": 523,
+          "": null
+        },
+        "buffs": []
+      },
+      {
+        "index": "Y2",
+        "stats": {
+          "atk": 150,
+          "matk": 40,
+          "def": 40,
+          "mdef": 40,
+          "spd": 50,
+          "hp": 0,
+          "": null
+        },
+        "buffs": []
+      },
+      {
+        "index": "Y3",
+        "stats": {
+          "atk": 150,
+          "matk": 40,
+          "def": 40,
+          "mdef": 40,
+          "spd": 50,
+          "hp": 0,
+          "": null
+        },
+        "buffs": []
+      }
+    ]
+  }
+}

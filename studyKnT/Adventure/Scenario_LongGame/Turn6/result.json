@@ -1,0 +1,23 @@
+{
+    "win": true,
+    "exps": [
+      {
+        "index": "X1",
+        "exp": 16
+      },
+      {
+        "index": "X2",
+        "exp": 60
+      },
+      {
+        "index": "X3",
+        "exp": 56
+      }
+    ],
+    "items": [
+      {
+        "code": "I001",
+        "qty": 1
+      }
+    ]
+  }

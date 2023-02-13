@@ -1,0 +1,147 @@
+{
+  "choices": [],
+  "steps": [
+    {
+      "actor": "X3",
+      "action": "ch00-15p",
+      "damageTargets": [
+        "X3"
+      ],
+      "damageAmounts": [
+        53
+      ],
+      "index": 0
+    },
+    {
+      "damageTargets": [
+        "X2"
+      ],
+      "buffToggles": [
+        "negate-atk_matk_all:on"
+      ],
+      "index": 1
+    },
+    {
+      "actor": "X2",
+      "action": "passive_prc-03",
+      "damageTargets": [
+        "X2"
+      ],
+      "buffToggles": [
+        "esme-impact:on"
+      ],
+      "index": 2
+    },
+    {
+      "damageTargets": [
+        "X2"
+      ],
+      "buffToggles": [
+        "negate-stun:on"
+      ],
+      "index": 3
+    }
+  ],
+  "state": {
+    "turn": 5,
+    "wave": 1,
+    "phase": 1,
+    "dice": 6,
+    "next": false,
+    "end": false,
+    "characters": [
+      {
+        "index": "X1",
+        "stats": {
+          "atk": 65,
+          "matk": 165,
+          "def": 55,
+          "mdef": 100,
+          "spd": 95,
+          "hp": 163,
+          "": null
+        },
+        "buffs": [
+          "devotion",
+          "ch00-09u-buff"
+        ]
+      },
+      {
+        "index": "X2",
+        "stats": {
+          "atk": 135,
+          "matk": 65,
+          "def": 180,
+          "mdef": 95,
+          "spd": 75,
+          "hp": 622,
+          "shd": 480,
+          "shdMax": 840,
+          "": null
+        },
+        "buffs": [
+          "negate-stun",
+          "shield",
+          "ch00-09u-buff",
+          "negate-atk_matk_all",
+          "esme-impact"
+        ]
+      },
+      {
+        "index": "X3",
+        "stats": {
+          "atk": 110,
+          "matk": 105,
+          "def": 125,
+          "mdef": 115,
+          "spd": 85,
+          "hp": 530,
+          "": null
+        },
+        "buffs": [
+          "devotion",
+          "ch00-09u-buff"
+        ]
+      },
+      {
+        "index": "Y1",
+        "stats": {
+          "atk": 200,
+          "matk": 150,
+          "def": 45,
+          "mdef": 45,
+          "spd": 60,
+          "hp": 182,
+          "": null
+        },
+        "buffs": []
+      },
+      {
+        "index": "Y2",
+        "stats": {
+          "atk": 150,
+          "matk": 40,
+          "def": 40,
+          "mdef": 40,
+          "spd": 50,
+          "hp": 0,
+          "": null
+        },
+        "buffs": []
+      },
+      {
+        "index": "Y3",
+        "stats": {
+          "atk": 150,
+          "matk": 40,
+          "def": 40,
+          "mdef": 40,
+          "spd": 50,
+          "hp": 0,
+          "": null
+        },
+        "buffs": []
+      }
+    ]
+  }
+}
